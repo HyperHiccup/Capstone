@@ -1,0 +1,136 @@
+/******************
+General
+******************/
+
+html {
+
+}
+
+body {
+  font-family: 'Carme', sans-serif;
+  font-weight: bold;
+  color: #474747;
+}
+
+/******************
+Header
+******************/
+
+header {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  display: inline-flex;
+  margin-right: auto;
+  margin-left: 24px;
+  font-weight: bold;
+}
+
+.logo img {
+}
+
+.logo span {
+  color: grey;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+/******************
+Banner
+******************/
+
+.banner {
+  background-color: silver;
+  color: #474747;
+  display: inline-flex;
+  align-items: center;
+}
+
+.banner img {
+  width: 60%;
+  height: 400px;
+  margin: 32px 24px;
+}
+
+.banner .text {
+  flex-direction: column;
+}
+
+.banner .button {
+  background-color: #474747;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  padding: 8px 40px;
+  width: 100px;
+
+}
+
+/******************
+Middle
+******************/
+
+.middle {
+  display: flex;
+}
+
+.mLeft {
+  margin: 32px 24px;
+  border-right: 1px solid grey;
+}
+
+.mLeft img {
+  width: 60%;
+}
+
+.mRight {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.mRight img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.mRight .article {
+  display: inline-flex;
+}
+
+.mRight .article .text {
+  flex-direction: column;
+  width: 65%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/******************
+General
+******************/
+
+
+/******************
+General
+******************/
+
+
+
+/******************
+General
+******************/
